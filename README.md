@@ -527,7 +527,7 @@ You can add an `index.html` file under the `nginx-role/files/` directory. This f
 
 # 8\. To add the `update_`[`inventories.sh`] script to your Ansible directory and integrate it with your existing setup, follow these steps:
 
-### **Step 1: Create the** `update_`[`inventories.sh`] Script
+### **Step 1: Create the** `update_inventories.sh` Script
 
 In your `ansible` directory, create a new file named `update_`[`inventories.sh`] with the following content. This script will dynamically update the inventory files for **dev**, **stg**, and **prod** environments based on the IPs fetched from the Terraform outputs.
 
