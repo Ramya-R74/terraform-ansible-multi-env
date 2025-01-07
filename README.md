@@ -149,7 +149,7 @@ With this structure, you can separate your **Terraform scripts** (infrastructure
 
 # 3\. **Setting Up Infrastructure Directory in Terraform**
 
-After creating the `infra` directory, add basic configurations to each Terraform file to provision essential AWS resources.
+After creating the `modules` directory, add basic configurations to each Terraform file to provision essential AWS resources.
 
 #### **Steps to Create the Infrastructure Directory and Add File Content**
 
@@ -162,7 +162,7 @@ After creating the `infra` directory, add basic configurations to each Terraform
 2. **Create the** `infra` Directory:
     
     ```bash
-    mkdir infra && cd infra  
+    mkdir modules && cd modules
     ```
     
 3. **Create and Populate the Terraform Files**: below is code which i have used to create infrastructure structure to accomplish project pattern
